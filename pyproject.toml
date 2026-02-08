@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmere-rpg"
+version = "0.1.0"
+description = "Application to manage characters in the Cosmere RPG tabletop game system"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[tool.black]
+line-length = 88
